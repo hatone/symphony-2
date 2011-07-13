@@ -91,7 +91,7 @@ body, html {
 	bottom: -5px;
 	margin: 0;
 	padding: 5px 19px;
-	background: url("images/navigation.png") 0 -60px repeat-x;
+	background: url("../../images/navigation.png") 0 -60px repeat-x;
 	color: #646464;
 	white-space: nowrap;
 	list-style: none;
@@ -114,12 +114,12 @@ body, html {
 	cursor:pointer;
 }
 #nav > li.active {
-	background: #517ca6 url("images/navigation.png") repeat-x;
+	background: #517ca6 url("../../images/navigation.png") repeat-x;
 	color: #fff;
 }
 #nav > li:hover,
 #nav > li.current {
-	background: #7e7e70 url("images/navigation.png") 0 -30px repeat-x;
+	background: #7e7e70 url("../../images/navigation.png") 0 -30px repeat-x;
 	color: #fff;
 }
 #nav ul {
