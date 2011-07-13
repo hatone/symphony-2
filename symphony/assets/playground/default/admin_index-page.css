@@ -1,0 +1,47 @@
+/*-----------------------------------------------------------------------------
+	Index page
+-----------------------------------------------------------------------------*/
+
+.index h2 {
+	border: none;
+}
+.index form {
+	margin: 0 -19px;
+	padding: 0;
+}
+.index .actions {
+	text-align: right;
+	padding: 1.75em 1.75em 0 0;
+	height: 38px;
+}
+.index .actions select {
+	width: auto;
+	display: -moz-inline-stack; /* Firefox 2 */
+	display: inline-block;
+	margin: 0;
+}
+.index .actions input {
+	margin: 0 0 0 5px;
+/*	padding: 3.5px 6px 4px;*/
+}
+.index .actions + ul.page {
+	margin-top: -58px;
+}
+ul.page {
+	margin: 0;
+	padding: 20px 50px 0 19px;
+	height: 36px;
+	color: #887;
+}
+ul.page li {
+	display: inline;
+	margin-right: 0.75em;
+}
+ul.page li[title] {
+	color: #222;
+}
+ul.page a {
+	margin: 0 -0.67em;
+	padding: 0.67em;
+	text-decoration: none;
+}

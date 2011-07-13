@@ -1,0 +1,83 @@
+/*-----------------------------------------------------------------------------
+	Single page
+-----------------------------------------------------------------------------*/
+
+.single #contents {
+	padding-bottom: 9em;
+}
+.single form {
+	margin: 0;
+}
+.primary {
+	float: left;
+	width: 60%;
+}
+.secondary {
+	float: right;
+	width: 35%;
+}
+.primary,
+.secondary {
+	padding: 0 0 2em;
+}
+.primary label,
+.secondary label,
+.secondary .label {
+	margin-top: 1.5em;
+}
+.primary .group label,
+.secondary .group label {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.primary .help,
+.secondary .help {
+	margin-top: 1.5em;
+}
+.primary label > * + span.frame,
+.secondary label > * + span.frame {
+	margin-top: 1.25em;
+}
+.primary label > i + span.frame,
+.secondary label > i + span.frame,
+.primary label > span.frame:first-child,
+.secondary label > span.frame:first-child {
+	margin-top: 0;
+}
+.file input {
+	margin: -3px 0;
+	font: inherit;
+}
+.file span {
+	overflow: hidden;
+	text-align: left;
+}
+.file a {
+	float: left;
+	max-width: 50%;
+	overflow: hidden;
+	text-overflow :ellipsis;
+}
+.file em {
+	float: right;
+	color: #998;
+	text-decoration: underline;
+	font-style: normal;
+	cursor: pointer;
+}
+.file em:hover {
+	color: #d43;
+}
+.single .actions {
+	clear: both;
+	border-top: 1px solid #ddc;
+	padding: 1.75em 0 0;
+}
+.single .actions input {
+	float: right;
+	margin-left: 1em;
+	padding: 3.5px 6px 4px;
+}
+.single .actions button {
+	float: left;
+}

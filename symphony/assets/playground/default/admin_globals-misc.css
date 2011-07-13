@@ -1,0 +1,48 @@
+/*-----------------------------------------------------------------------------
+	Globals - Miscellaneous
+-----------------------------------------------------------------------------*/
+
+body {
+	background: #fff;
+	color: #222;
+}
+h2 {
+	margin: 0;
+	padding: 0 0 0.5em;
+	border-bottom: 1px solid #ddc;
+}
+h3 {
+	text-shadow: -1px 2px 2px #ddd;
+	font-weight: bold;
+}
+pre {
+	color: #474742;
+	white-space: normal;
+	font: inherit;
+}
+pre code {
+	border: 1px dashed #a1a19a;
+	padding: 5px 7px;
+	overflow: auto;
+}
+i, var {
+	color: #aa9;
+	text-shadow: none;
+	font-style: normal;
+}
+legend {
+	margin-bottom: -3em;
+	padding: 0;
+	color: #665;
+	text-shadow: -1px 2px 3px #ddd;
+	font-weight: bold;
+}
+label {
+	display: block;
+	position: relative;
+}
+label > i {
+	position: absolute;
+	right: 0;
+	top: 0;
+}

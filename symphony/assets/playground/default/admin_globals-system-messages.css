@@ -1,0 +1,175 @@
+/*-----------------------------------------------------------------------------
+	Globals - System Messages
+-----------------------------------------------------------------------------*/
+
+#notice {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	border-top: 3px solid #979792;
+	border-bottom: 2px solid #777;
+	padding: 0.5em 0.83em;
+	background-color: #e4e4e0;
+	color: #555;
+	font-size: 90.91%;
+	line-height: 1.6;
+}
+#notice.error {
+	background-color: #ffb;
+	border-top: 3px solid #cc8;
+}
+#notice.success {
+	background-color: #ddf6bb;
+	border-top: 3px solid #90c349;
+}
+#notice.silence {
+	background: #e4e4e0;
+	border-top-color: #979792;
+	border-bottom-color: #777;
+	color: #555;
+}
+#notice a,
+#notice button {
+	color: #999;
+	margin-left: 0.5em;
+}
+#notice a:hover,
+#notice button:hover {
+	color: #332;
+}
+#notice.error a,
+#notice.error button {
+	color: #d55;
+}
+#notice.error a:hover,
+#notice.error button:hover {
+	color: #912712;
+}
+#notice.success a:hover,
+#notice.success button:hover {
+	color: #111;
+}
+#notice button {
+	border: none;
+	background: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------
+	Header
+-----------------------------------------------------------------------------*/
+
+body, html {
+	height: 100%;
+}
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+#header {
+	margin: 0 0 1.8em;
+	background: #353530;
+	color: #fff;
+}
+#header h1 {
+	padding: 1.64em 19px 0.74em;
+	text-shadow: -1px 2px 3px #111;
+	font-weight: bold;
+	line-height: 1;
+}
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+#header h1 a:hover {
+	color: #ccb;
+}
+#nav {
+	z-index: 3;
+	position: relative;
+	bottom: -5px;
+	margin: 0;
+	padding: 5px 19px;
+	background: url("images/navigation.png") 0 -60px repeat-x;
+	color: #646464;
+	white-space: nowrap;
+	list-style: none;
+	text-transform: uppercase;
+	font: bold 90.91%/0 Lucida Grande, Leelawadee, Tahoma, Verdana, sans-serif;
+}
+#nav:after {
+	content: "";
+	display: block;
+	clear: left;
+	height: 0;
+}
+#nav > li {
+	position: relative;
+	float: left;
+	position: relative;
+	padding: 0 1em;
+	height: 30px;
+	line-height: 32px;
+	cursor:pointer;
+}
+#nav > li.active {
+	background: #517ca6 url("images/navigation.png") repeat-x;
+	color: #fff;
+}
+#nav > li:hover,
+#nav > li.current {
+	background: #7e7e70 url("images/navigation.png") 0 -30px repeat-x;
+	color: #fff;
+}
+#nav ul {
+	position: absolute;
+	z-index: 3;
+	top: 25px;
+	left: -9999px;
+	margin: 0;
+	min-width: 120px;
+	border: 1px solid;
+	border-color: #fdfdfd #f1f1f1 #d2d2d2 #ececec;
+	padding-left: 0;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.8);
+	list-style: none;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 130%;
+	line-height: 2.5;
+	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+#nav li:hover ul,
+#nav li.current ul {
+	left: 5px;
+}
+#nav a {
+	display: block;
+	padding: 0 0.77em;
+	color: #444;
+	text-decoration: none;
+}
+#nav a:hover,
+#nav a:focus {
+	background-color: #7e7e70;
+	color: #fff;
+}
+#contents {
+	padding: 0 19px 5em;
+}
+#contents h2 span {
+	float: left;
+}
+#contents h2:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+#contents h2 .button {
+	float: right;
+	margin-left: 10px;
+}
