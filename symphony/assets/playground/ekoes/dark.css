@@ -1,0 +1,89 @@
+#header h1 a, #header h1 a:hover {
+	background-color: #3e3e3e;
+	background: -moz-linear-gradient(
+		top,
+		#595959,
+		#3e3e3e
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #595959),
+		color-stop(1, #3e3e3e)
+	);
+	padding: 0 19px 0 10px;
+}
+
+#nav {
+	background-color: #3e3e3e;
+	background: -moz-linear-gradient(
+		top,
+		#595959,
+		#3e3e3e
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #595959),
+		color-stop(1, #3e3e3e)
+	);
+}
+#nav > li {
+	color: #fff;
+	text-shadow: 1px 1px 0 hsla(0, 0%, 0%, 0.5);
+}
+
+#nav > li.active {
+	background-color: #3e3e3e;
+	background: -moz-linear-gradient(
+		top,
+		#595959,
+		#3e3e3e
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #828282),
+		color-stop(1, #6a6a6a)
+	);
+	color: #fff;
+	text-shadow: 1px 1px 0 hsla(0, 0%, 0%, 0.5);
+}
+
+#nav > li:hover {
+	background-color: #5c83ba;
+	background: -moz-linear-gradient(
+		top,
+		#6f92c2,
+		#4d78b4
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #6f92c2),
+		color-stop(1, #4d78b4)
+	);
+	border-bottom: 1px solid transparent;
+}
+
+#nav > li:hover ul {
+	border-top-width: 1px;
+	margin-top: -1px;
+}
+
+#nav ul a:hover {
+	background: #bababa;
+}
+
+#contents div.drawer {
+	-moz-box-shadow: inset 0 -1px 6px #d7d7d2;
+	-webkit-box-shadow: inset 0 -1px 6px #d7d7d2;
+	background: #F4F4F4;
+	border-bottom: 1px solid #d5d6d2;
+	color: #222;
+	text-shadow: none;
+}
