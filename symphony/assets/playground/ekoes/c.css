@@ -1,0 +1,19 @@
+#header h1 {
+	position: absolute;
+	left: -9999px;
+}
+
+#nav .right {
+	float: right;
+}
+
+#nav li.right:hover ul {
+	left: auto;
+	right: 0;
+}
+
+#footer {
+	padding: 10px 19px; 
+	height: auto;
+	position: fixed;
+}

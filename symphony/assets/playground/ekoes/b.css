@@ -1,0 +1,6 @@
+#header h1 {
+	float: right;
+}
+#header h1 a, .b #header h1 a:hover {
+	padding-left: 10px;
+}
