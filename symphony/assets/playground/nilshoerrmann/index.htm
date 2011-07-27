@@ -3,7 +3,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" type="text/css" media="screen" href="../../basic.css">
-		<link rel="stylesheet" type="text/css" media="screen" href="../../admin.css">
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../jquery.color.js"></script>
 		<script type="text/javascript" src="../../symphony.collapsible.js"></script>
@@ -16,12 +15,32 @@
 		<script type="text/javascript" src="../../admin.js"></script>
 		<script type="text/javascript" src="header.js"></script>
 		<script type="text/javascript">Symphony.Context.add('env', {"section_handle":"test","page":"index","entry_id":null,"flag":null}); Symphony.Context.add('root', 'http://localhost');</script>
+		<style>
+		
+			/* Default */
+			@import url("../default/admin_globals-misc.css");
+			@import url("../default/admin_globals-tables.css");
+/*			@import url("../default/admin_globals-classes-ui.css");*/
+/*			@import url("../default/admin_globals-system-messages.css"); */
+/*			@import url("../default/admin_footer.css");*/
+			@import url("../default/admin_index-page.css");
+			@import url("../default/admin_single-page.css");
+			@import url("../default/admin_specific-page.css");
+
+			/* Replacements */
+			@import url("header.css");
+			@import url("drawer.css");
+			@import url("admin_globals-classes-ui.css");
+			@import url("buttons.css");
+			@import url("footer.css");
+		
+		</style>
 		<title>Symphony &ndash; Test</title>
 	</head>
 	<body id="publish" class="test index">
 		<div id="wrapper">
 			<div id="header">
-				<p id="notice">Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="http://localhost/update.php?action=remove">Remove Update Script</a></p>
+<!--				<p id="notice">Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="http://localhost/update.php?action=remove">Remove Update Script</a></p>-->
 				<h1>
 					<a href="http://localhost/">Symphony 2.3 Playground</a>
 				</h1>
@@ -62,7 +81,13 @@
 				</ul>
 			</div>
 			<div id="contents">
-				<h2><span>Test</span> <a href="http://localhost/symphony/publish/test/new/" title="Create a new entry" class="create button" accesskey="c">Create New</a></h2>
+				<div class="drawer">
+					<h2><span>Test</span></h2>
+					<a href="http://localhost/symphony/publish/test/new/" title="Create a new entry" class="create button" accesskey="c">Create New</a>
+					<div class="settings">
+					
+					</div>
+				</div>
 				<form action="http://localhost/symphony/publish/test/?pg=1" method="post" class="test">
 					<table class="selectable">
 						<thead>
@@ -79,11 +104,12 @@
 						</tbody>
 					</table>
 					<div class="actions">
-						<select name="with-selected">
+<!--						<select name="with-selected">
 							<option value="">With Selected...</option>
 							<option value="delete" class="confirm" data-message="Are you sure you want to delete the selected entries?">Delete</option>
-						</select>
-						<input name="action[apply]" type="submit" value="Apply">
+						</select>-->
+						<a class="button">With selected <span>▼</span></a>
+<!--						<input name="action[apply]" type="submit" value="Apply">-->
 					</div>
 				</form>
 			</div>

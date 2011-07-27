@@ -1,0 +1,31 @@
+
+.index form {
+	margin: 0;
+	padding: 0;
+}
+
+#contents {
+	padding: 0;
+}
+
+#contents div.drawer {
+	-moz-box-shadow: inset 0 -1px 6px #d7d7d2;
+	-webkit-box-shadow: inset 0 -1px 6px #d7d7d2;
+	position: relative;
+	background: #F4F4F4;
+	border-bottom: 1px solid #d5d6d2;
+	z-index: 3;
+	padding: 18px 18px;
+	margin: 0 0 3px;
+}
+
+#contents div.drawer a.button {
+	position: absolute;
+	top: 15px;
+	right: 18px;
+}
+
+#contents h2 {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------------------*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 34px;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 16px 19px 0;
+	border-top: 1px solid #000;
+	text-align: right;
+	text-shadow: -1px 2px 3px #111;
+	color: #fff;
+	background: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    from(rgba(0, 0, 0, 0.9)),
+	    color-stop(0.05, #282828),
+	    to(#282828)
+	);
+	background: -moz-linear-gradient(
+	    center top,
+	    rgba(0, 0, 0, 0.9),
+	    #282828 5%,
+	    #282828
+	);
+}
+#footer:after {
+	content: "";
+	display: block;
+	clear: left;
+	height: 0;
+}
+#version,
+#usr,
+#usr li {
+	margin: 0;
+	padding: 0
+}
+#version {
+	color: #A5A5A0;
+	float: left;
+}
+#usr li {
+	display: inline;
+	padding-left: 12px;
+}
+#usr a {
+	padding: 5px;
+	border: none;
+	text-decoration: none;
+	color: #fff;
+}
+#usr a:hover {
+	color: #ccb;
+}
