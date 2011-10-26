@@ -1,0 +1,12 @@
+#########################################
+#
+#  fluxflex configuration for symfony2
+#
+#########################################
+
+## Replace
+[replace]
+
+## Setup
+[setup]
+ln -s . public_html
